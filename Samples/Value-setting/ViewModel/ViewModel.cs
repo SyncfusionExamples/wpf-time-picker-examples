@@ -11,9 +11,8 @@ namespace SfDatePicker_Value_setting
 {
     class ViewModel : NotificationObject
     {
-        private ICommand selectionChangedCommand;
         private bool setValueOnLostFocus = false;
-        private string selectedTime;
+        private object selectedTime;
 
         public bool SetValueOnLostFocus
         {
@@ -27,7 +26,7 @@ namespace SfDatePicker_Value_setting
                 this.RaisePropertyChanged("SetValueOnLostFocus");
             }
         }
-        public string SelectedTime
+        public object SelectedTime
         {
             get
             {
@@ -40,23 +39,8 @@ namespace SfDatePicker_Value_setting
             }
         }
 
-       
-        public ICommand SelectionChangedCommand
-        {
-            get
-            {
-                return selectionChangedCommand;
-            }
-        }
-
         public ViewModel()
         {
-            selectionChangedCommand = new DelegateCommand<object>(selectionChanged);
-        }
-
-        public void selectionChanged(object parameter)
-        {
-            SelectedTime = (parameter as SfTimePicker).Value.ToString();
         }
     }
 }
