@@ -20,7 +20,7 @@
 
         <Grid>
             <syncfusion:SfTimePicker Name="sfTimePicker"
-                                     VerticalAlignment="Top"
+                                     VerticalAlignment="Center"
                                      HorizontalAlignment="Center"
                                      Width="200"/>
         </Grid>
