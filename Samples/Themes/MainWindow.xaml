@@ -19,7 +19,7 @@
         </Grid.ColumnDefinitions>
 
         <Grid>
-            <syncfusion:SfTimePicker Name="sfDatePicker"
+            <syncfusion:SfTimePicker Name="sfTimePicker"
                                      VerticalAlignment="Top"
                                      HorizontalAlignment="Center"
                                      Width="200"/>
