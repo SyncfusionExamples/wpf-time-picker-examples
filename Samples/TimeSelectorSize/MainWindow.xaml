@@ -1,0 +1,20 @@
+﻿<Window x:Class="SfTimePicker_SelectorSize.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SfTimePicker_SelectorSize" 
+        xmlns:syncfusion="http://schemas.syncfusion.com/wpf"
+        mc:Ignorable="d" SizeChanged="Window_SizeChanged"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <syncfusion:SfTimeSelector x:Name="TimeSelector"  
+                                    AccentBrush="Black" 
+                                    Background="Transparent"
+                                    Header="" 
+                                    BorderBrush="Transparent"
+                                    BorderThickness="2" 
+                                    ShowCancelButton="False"
+                                    ShowDoneButton="False" />
+    </Grid>
+</Window>
