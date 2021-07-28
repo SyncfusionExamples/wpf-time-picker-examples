@@ -10,6 +10,7 @@ Syncfusion WPF TimePicker examples
   </tr>
   <tr>
   <td><a href="Samples/TimeSelectorButton">TimeSelectorButton</a></td>
+  <td><a href="Samples/TimeSelectorSize">TimeSelectorSize</a></td>
   <td><a href="Samples/TimeSelectorTemplates">TimeSelectorTemplates</a></td>
   <td><a href="Samples/Value-setting">Value-Setting</a></td>
  </tr>
